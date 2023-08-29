@@ -1,0 +1,46 @@
+/* mengatur jarak navbar agar menempel keatas */
+*{
+  margin: 0;
+}
+/* ------------------ */
+
+/* Navbar */
+ul{
+  list-style-type: none;          /*Menghilangkan list atau lingkaran*/
+  background-color: burlywood;  /*Memberikan warna navbar*/
+  padding: 10px;                  /*Memberikan jarak lebar navbar*/
+  display: flex;                  /*Menggantikan float = left */
+  justify-content: center;        /*untuk mengatur posisi menu */
+}
+
+li a{
+  padding: 10px;          /*Memberikan jarak antar menu*/
+  color: black;         /*Mengganti warna tulisan menu*/
+  text-decoration: none;
+}
+/* Memberikan Efek Pada Menu */
+li a:hover{
+  color: white;
+  text-decoration: underline;
+}
+/* End Navbar */
+
+/* Container */
+.grid-container{
+  display: grid;                      /*Atur tampilan menjadi Grid*/
+  grid-template-columns: auto auto ;  /*Mengatur jumlah kolom menjadi 2*/
+}
+/* End Container */
+
+/* footer */
+footer{
+  background-color: gray;  /*Memberi warna footer*/
+  text-align: center;        /*Mengatur tulisan ditengah*/
+  position: fixed;           /*Mengatur posisi footer agar tetap*/
+  right: 0;                  /*Mengatur jarak footer ke margin 0 kanan*/
+  left: 0;                   /*Mengatur jarak footer ke margin 0 kiri*/
+  bottom: 0;                 /*Mengatur jarak footer ke posisi bawah*/
+  padding: 5px;              /*Memberikan jarak lebar footer*/
+}
+/* End footer */
+
